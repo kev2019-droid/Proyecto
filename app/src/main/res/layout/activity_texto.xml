@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nuevofondo"
+    android:orientation="vertical"
+    tools:context=".Texto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:elevation="5dp"
+        android:text="TEXTO"
+        android:textColor="#F3FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="190dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:elevation="5dp"
+        android:text="Generalmente el texto
+        el texto esta de este tamaño: 14sp."
+        android:textColor="#F3FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:elevation="5dp"
+        android:text="Cambiar el tamaño a:"
+        android:textColor="#F3FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Tamaño de letra"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:textColor="#F3FFFFFF"
+        android:textColorHint="#F3FFFFFF"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="97dp"
+        android:layout_height="106dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/holo_blue_dark"
+        android:elevation="5dp"
+        android:onClick="regresar"
+        app:srcCompat="@drawable/volver" />
+
+
+</LinearLayout>
